@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <definition name="layout-template" template="/WEB-INF/views/tiles/layouts/LayoutTemplate.jsp">
+        <put-attribute name="title" value="" />
+        <put-attribute name="body" value="" />
+    </definition>
+
+    <definition name="HomePage" extends="layout-template">
+        <put-attribute name="title" value="Service SantHelp" />
+        <put-attribute name="body" value="/WEB-INF/views/pages/index.jsp" />
+    </definition>
+</tiles-definitions>
